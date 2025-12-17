@@ -1,161 +1,159 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <title>Seth's Practice Portfolio</title>
     <link rel="icon" type="image/x-icon" href="images/MLfavi.png" />
     <link rel="stylesheet" href="styles.css" />
-    <script
-      src="https://kit.fontawesome.com/c7d1c54ee2.js"
-      crossorigin="anonymous"
-    ></script>
-  </head>
+    <script src="https://kit.fontawesome.com/c7d1c54ee2.js" crossorigin="anonymous"></script>
+</head>
 
-  <body>
+<body>
     <nav class="nav">
-      <ul class="navbar">
-        <img id="pfp" src="images/pfp.jpeg" alt="developer" />
-        <li><a href="index.html">Home</a></li>
-        <li><a href="newAboutSeth.html">About</a></li>
-        <li><a href="index.html#projects">Projects</a></li>
-        <li>
-          <a target="_blank" href="images\Resume.docx.pdf">Resume</a>
-        </li>
-      </ul>
+        <ul class="navbar">
+            <img id="pfp" src="images/pfp.jpeg" alt="developer" />
+            <li><a href="index.html">Home</a></li>
+            <li><a href="newAboutSeth.html">About</a></li>
+            <li><a href="index.html#projects">Projects</a></li>
+            <li>
+                <a target="_blank" href="images\Resume.docx.pdf">Resume</a>
+            </li>
+        </ul>
     </nav>
 
     <marquee class="welcome">Welcome to Seth's Dev Portfolio</marquee>
 
     <section class="about-page-top">
-      <img id="headshot" src="images/xbgHeadshot.png" alt="seth headshot" />
+        <img id="headshot" src="images/xbgHeadshot.png" alt="seth headshot" />
 
-      <div class="book-box">
-        <h2>Book Recommendation</h2>
-        <p>
-          Enter a genre (science fiction, fantasy, mystery, non-fiction, manga):
-        </p>
+        <div class="book-box">
+            <h2>Book Recommendation</h2>
+            <p>
+                Enter a genre (science fiction, fantasy, mystery, non-fiction, manga):
+            </p>
 
-        <input type="text" id="genreInput" placeholder="ex. science fiction" />
-        <button onclick="getRecommendation()">Get Recommendation</button>
+            <input type="text" id="genreInput" placeholder="ex. science fiction" />
+            <button onclick="getRecommendation()">Get Recommendation</button>
 
-        <p id="recommendationOutput"></p>
-      </div>
+            <p id="recommendationOutput"></p>
+        </div>
     </section>
 
     <section class="content-section">
-      <h1>Interests</h1>
-      <p>I'm into tech — mechanical keyboards, GPUs, and PC innovation.</p>
+        <h1>Interests</h1>
+        <p>I'm into tech — mechanical keyboards, GPUs, and PC innovation.</p>
 
-      <div class="gallery">
-        <img src="images/gpu.webp" />
-        <img src="images/noctua.jpeg" />
-      </div>
+        <div class="gallery">
+            <img src="images/gpu.webp" />
+            <img src="images/noctua.jpeg" />
+        </div>
 
-      <h1>Books</h1>
-      <p>
-        I'm a sci-fi fan. Asimov is my favorite author — especially *The Robots
-        of Dawn*, *I, Robot*, and *Foundation and Empire*.
-      </p>
+        <h1>Books</h1>
+        <p>
+            I'm a sci-fi fan. Asimov is my favorite author — especially *The Robots of Dawn*, *I, Robot*, and *Foundation and Empire*.
+        </p>
 
-      <div class="gallery">
-        <img src="images/robotsofdawn.jpeg" />
-        <img src="images/irobot.webp" />
-        <img src="images/FE.jpg" />
-        <img src="images/radiant.png" />
-      </div>
+        <div class="gallery">
+            <img src="images/robotsofdawn.jpeg" />
+            <img src="images/irobot.webp" />
+            <img src="images/FE.jpg" />
+            <img src="images/radiant.png" />
+        </div>
 
-      <h1>Likes</h1>
-      <p>
-        I like games — Star Citizen especially — and warm-weather lake days.
-      </p>
+        <h1>Likes</h1>
+        <p>
+            I like games — Star Citizen especially — and warm-weather lake days.
+        </p>
 
-      <div class="gallery">
-        <img src="images/starcitizen.jpeg" />
-        <img src="images/lakeday.jpeg" />
-      </div>
+        <div class="gallery">
+            <img src="images/starcitizen.jpeg" />
+            <img src="images/lakeday.jpeg" />
+        </div>
 
-      <h1>Favorite Artists</h1>
-      <p>TV Girl, Stereolab, J. Cole are some of my top favorites.</p>
+        <h1>Favorite Artists</h1>
+        <p>TV Girl, Stereolab, J. Cole are some of my top favorites.</p>
 
-      <div class="gallery">
-        <img src="images/sidelinestory.jpeg" />
-        <img src="images/summersover.jpeg" />
-        <img src="images/stereolab.jpeg" />
-      </div>
+        <div class="gallery">
+            <img src="images/sidelinestory.jpeg" />
+            <img src="images/summersover.jpeg" />
+            <img src="images/stereolab.jpeg" />
+        </div>
 
-      <h1>TV Shows</h1>
-      <p>Atlanta, Invincible, Pantheon, and Hunter x Hunter.</p>
+        <h1>TV Shows</h1>
+        <p>Atlanta, Invincible, Pantheon, and Hunter x Hunter.</p>
 
-      <div class="gallery">
-        <img src="images/atlanta.jpeg" />
-        <img src="images/invincible.jpeg" />
-        <img src="images/pantheon.jpg" />
-        <img src="images/hxh.jpeg" />
-      </div>
+        <div class="gallery">
+            <img src="images/atlanta.jpeg" />
+            <img src="images/invincible.jpeg" />
+            <img src="images/pantheon.jpg" />
+            <img src="images/hxh.jpeg" />
+        </div>
     </section>
 
     <footer class="footer">
-      <div class="footer-links">
-        <a target="_blank" href="https://www.linkedin.com/in/seth-nyakeri/">
-          <i class="fa-brands fa-linkedin fa-3x"></i>
-        </a>
-        <a target="_blank" href="https://github.com/sethoteric">
-          <i class="fa-brands fa-square-github fa-3x"></i>
-        </a>
-      </div>
+        <div class="footer-links">
+            <a target="_blank" href="https://www.linkedin.com/in/seth-nyakeri/">
+                <i class="fa-brands fa-linkedin fa-3x"></i>
+            </a>
+            <a target="_blank" href="https://github.com/sethoteric">
+                <i class="fa-brands fa-square-github fa-3x"></i>
+            </a>
+        </div>
 
-      <h4>©2024 Seth Nyakeri, all rights reserved</h4>
+        <h4>©2024 Seth Nyakeri, all rights reserved</h4>
     </footer>
 
     <script>
-      const booksByGenre = {
-        "science fiction": [
-          "The Naked Sun – Isaac Asimov",
-          "Cloud Atlas – David Mitchell",
-          "I, Robot – Isaac Asimov",
-          "The Hidden Girl – Ken Liu",
-          "I Have No Mouth, and I Must Scream – Harlan Ellison",
-        ],
-        fantasy: [
-          "Percy Jackson – Rick Riordan",
-          "Harry Potter – J.K. Rowling",
-          "Eragon – Christopher Paolini",
-          "Magic Tree House – Mary Pope Osborne",
-        ],
-        mystery: [
-          "The Mystery in Venice – Geronimo Stilton",
-          "Gone Girl – Gillian Flynn",
-          "The Da Vinci Code – Dan Brown",
-          "A Study in Scarlet – Arthur Conan Doyle",
-        ],
-        "non-fiction": [
-          "Think Python – Allen B. Downey",
-          "A Brief History of Time – Stephen Hawking",
-          "The Holy Bible",
-        ],
-        manga: [
-          "JoJo’s Bizarre Adventure",
-          "The Beginning After The End",
-          "Berserk",
-          "Yu-Gi-Oh!",
-          "Uzumaki",
-          "No Longer Human",
-          "One Piece",
-        ],
-      };
+        const booksByGenre = {
+            "science fiction": [
+                "The Naked Sun – Isaac Asimov",
+                "Cloud Atlas – David Mitchell",
+                "I, Robot – Isaac Asimov",
+                "The Hidden Girl – Ken Liu",
+                "I Have No Mouth, and I Must Scream – Harlan Ellison",
+            ],
+            fantasy: [
+                "Percy Jackson – Rick Riordan",
+                "Harry Potter – J.K. Rowling",
+                "Eragon – Christopher Paolini",
+                "Magic Tree House – Mary Pope Osborne",
+            ],
+            mystery: [
+                "The Mystery in Venice – Geronimo Stilton",
+                "Gone Girl – Gillian Flynn",
+                "The Da Vinci Code – Dan Brown",
+                "A Study in Scarlet – Arthur Conan Doyle",
+            ],
+            "non-fiction": [
+                "Think Python – Allen B. Downey",
+                "A Brief History of Time – Stephen Hawking",
+                "The Holy Bible",
+            ],
+            manga: [
+                "JoJo’s Bizarre Adventure - hirohiko Araki",
+                "The Beginning After The End - TurtleMe",
+                "Berserk - Kentaro Miura",
+                "Yu-Gi-Oh! - Kazuki Takahashi",
+                "Uzumaki - Junji Ito",
+                "No Longer Human - Osamu Dazai",
+                "One Piece - Eiichiro Oda",
+            ],
+        };
 
-      function getRecommendation() {
-        const input = document.getElementById("genreInput").value.toLowerCase();
-        const out = document.getElementById("recommendationOutput");
+        function getRecommendation() {
+            const input = document.getElementById("genreInput").value.toLowerCase();
+            const out = document.getElementById("recommendationOutput");
 
-        if (booksByGenre[input] && booksByGenre[input].length) {
-          const i = Math.floor(Math.random() * booksByGenre[input].length);
-          out.textContent = booksByGenre[input][i];
-          booksByGenre[input].splice(i, 1);
-        } else {
-          out.textContent = "No more recommendations for that genre!";
+            if (booksByGenre[input] && booksByGenre[input].length) {
+                const i = Math.floor(Math.random() * booksByGenre[input].length);
+                out.textContent = booksByGenre[input][i];
+                booksByGenre[input].splice(i, 1);
+            } else {
+                out.textContent = "No more recommendations for that genre!";
+            }
         }
-      }
     </script>
-  </body>
+</body>
+
 </html>
